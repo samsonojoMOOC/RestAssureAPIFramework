@@ -1,0 +1,555 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-06T10:35:08.603Z",
+        "line": 14,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1677007900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has API endpoint \"Gwen\" \"Efik\" \"Ikorodu\" \"http://gwen.person\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gwen\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Efik\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Ikorodu\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"http://gwen.person\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.Step.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1636303000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.Step.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2995600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate that status code in response body",
+            "match": {
+              "location": "stepDefinition.Step.validate_that_status_code_in_response_body()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 720001800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37001200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1579087100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created above maps to \"Gwen\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gwen\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinition.Step.verify_place_id_created_above_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-06T10:35:14.346Z",
+        "line": 15,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7001400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has API endpoint \"Paul\" \"pidgin\" \"agege motor Road\" \"http://paul.person\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paul\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"pidgin\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"agege motor Road\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"http://paul.person\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinition.Step.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 532571100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.Step.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate that status code in response body",
+            "match": {
+              "location": "stepDefinition.Step.validate_that_status_code_in_response_body()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31989700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18991300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639438300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created above maps to \"Paul\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paul\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepDefinition.Step.verify_place_id_created_above_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-06T10:35:15.585Z",
+        "line": 16,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5002500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has API endpoint \"Anchor\" \"Efik\" \"Ikorodu\" \"http://gwen.person\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anchor\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Efik\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Ikorodu\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"http://gwen.person\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinition.Step.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 517930300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.Step.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate that status code in response body",
+            "match": {
+              "location": "stepDefinition.Step.validate_that_status_code_in_response_body()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37994000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14994500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644853000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_id created above maps to \"Anchor\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anchor\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.Step.verify_place_id_created_above_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-06T10:35:16.812Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate that user can send Delete request successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-delete-request-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user has endpoint",
+            "match": {
+              "location": "stepDefinition.Step.user_has_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 614774200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user sends \"DeletePlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Step.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "validate that status code in response body",
+            "match": {
+              "location": "stepDefinition.Step.validate_that_status_code_in_response_body()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33985800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.Step.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate AddPlace API",
+    "description": "",
+    "id": "validate-addplace-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddPlace.feature",
+    "tags": []
+  }
+]

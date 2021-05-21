@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Gwen",
+    "phone_number": "08065789847",
+    "address": "Ikorodu",
+    "website": "http://gwen.person",
+    "language": "Efik",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:36 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "place_id": "5796947254d6c7f8699a0f8c1e1f9836",
+    "scope": "APP",
+    "reference": "9ab19ab96297a13f3495d82f2314ce389ab19ab96297a13f3495d82f2314ce38",
+    "id": "9ab19ab96297a13f3495d82f2314ce38"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=5796947254d6c7f8699a0f8c1e1f9836
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=5796947254d6c7f8699a0f8c1e1f9836
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:38 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Gwen",
+    "phone_number": "08065789847",
+    "address": "Ikorodu",
+    "types": "shoe park,shop",
+    "website": "http://gwen.person",
+    "language": "Efik"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Paul",
+    "phone_number": "08065789847",
+    "address": "agege motor Road",
+    "website": "http://paul.person",
+    "language": "pidgin",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:39 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "place_id": "8791c6906394be18c7d850545fa2f8be",
+    "scope": "APP",
+    "reference": "35d9edcdf867c6dfce7d42cbc016bd3d35d9edcdf867c6dfce7d42cbc016bd3d",
+    "id": "35d9edcdf867c6dfce7d42cbc016bd3d"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=8791c6906394be18c7d850545fa2f8be
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=8791c6906394be18c7d850545fa2f8be
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:40 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Paul",
+    "phone_number": "08065789847",
+    "address": "agege motor Road",
+    "types": "shoe park,shop",
+    "website": "http://paul.person",
+    "language": "pidgin"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Anchor",
+    "phone_number": "08065789847",
+    "address": "Ikorodu",
+    "website": "http://gwen.person",
+    "language": "Efik",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:40 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "status": "OK",
+    "place_id": "31a50868376301788d158b9c0d281c36",
+    "scope": "APP",
+    "reference": "f9f1fc5ecaad8d15f70441821e95da62f9f1fc5ecaad8d15f70441821e95da62",
+    "id": "f9f1fc5ecaad8d15f70441821e95da62"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=31a50868376301788d158b9c0d281c36
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=31a50868376301788d158b9c0d281c36
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Anchor",
+    "phone_number": "08065789847",
+    "address": "Ikorodu",
+    "types": "shoe park,shop",
+    "website": "http://gwen.person",
+    "language": "Efik"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "31a50868376301788d158b9c0d281c36"
+}
+HTTP/1.1 200 OK
+Date: Thu, 13 May 2021 12:57:49 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+
+{
+    "status": "OK"
+}
